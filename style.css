@@ -1,0 +1,38 @@
+table {
+    width: 600px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header row styling */
+th {
+    background-color: #800080; /* Dark purple color for header */
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Body row styling */
+tbody tr:nth-child(even) td {
+    background-color: #D773AD; /* Darker pink for even rows */
+    color: white;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #FF9ADB; /* Lighter pink for odd rows */
+    color: white;
+}
+
+/* Border styling */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.telephone-header {
+    background-color: #800080;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
